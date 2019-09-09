@@ -1,0 +1,54 @@
+﻿$fixed_unit: 10px;
+$card_color: #D3D3D3;
+
+.wrapper {
+    margin: $fixed_unit * 5;
+    text-align: left;
+}
+//product table card
+.card {
+    width: 80%;
+    margin-left: $fixed_unit;
+    padding: $fixed_unit * 5 $fixed_unit * 5;
+    background-color: #fff;
+    box-shadow: $fixed_unit 5px $card_color;
+    border-radius: $fixed_unit / 2;
+}
+
+//product-table
+.table {
+    width: 100%;
+    margin-top: 0px;
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        padding-top: 8px;
+        text-align: left;
+    }
+}
+
+.products {
+    margin-top: $fixed_unit * 4;
+}
+
+.productQuantity {
+    width: 80px
+}
+
+//promotion
+
+.promotion {
+    margin-top: $fixed_unit * 4;
+}
+
+.promoCode {
+    margin-right: $fixed_unit * 2;
+    min-width: $fixed_unit * 30;
+}
+
+.totalPrice {
+    margin-top: $fixed_unit * 4;
+}
